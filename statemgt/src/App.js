@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [counter ,setCounter]= React.useState(5)
+  const [counter ,setCounter]= React.useState(1)
 
   const handleIncre = (value) => {
     setCounter(value+counter)
